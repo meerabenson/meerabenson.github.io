@@ -58,7 +58,7 @@
 		<a href="#about">About</a>
 		</li>
 		<li>
-		<a href="#gallery">Projects</a>
+		<a href="#gallery2">Projects</a>
 		</li>
 		<li>
 		<a href="#slider">Interests</a>
@@ -388,16 +388,16 @@
 			</div>
             </div>
         
-           <!-- <div class="row">
+            <div class="row">
             
 			<div class="col-md-4">
-				<img onclick="showCaptionD()"  src="assets/img/wicspurple.png" alt="" class="image-responsive">
-                <div id="wics" class="lightSpeedIn animated" style="display:none;text-align:center">
-					<p>Logo I made for the Women in Computer Science club. The moth represents the first "bug" found by Grace Hopper! </p>
+				<img onclick="showCaption4()"  src="assets/img/helicopter.png" alt="" class="image-responsive">
+                <div id="helicopter" class="lightSpeedIn animated" style="display:none;text-align:center">
+					<p>I made this graphic to learn about concepts such as lighting, textures, and skyboxes. </p>
 				</div>
 			</div>
             
-			<div class="col-md-4">
+			<!--<div class="col-md-4">
 				<img onclick="showCaptionE()"  src="assets/img/barrett.png" alt="" class="image-responsive">
                 <div id="barrett" class="lightSpeedIn animated" style="display:none;text-align:center">
 					<p>Winning T-shirt design I made for Barrett Honors College</p>
@@ -410,9 +410,9 @@
 					<p>Published Snapchat geotag I made for ASU's football stadium </p>
 				</div>
 			</div>
-            </div>
+            </div> -->
             
-            <div class="row">
+            <!-- <div class="row">
 			<div class="col-md-4">
 				<img onclick="showCaptionG()"  src="assets/img/activeminds.png">
                 <div id="active" class="lightSpeedIn animated" style="display:none;text-align:center">
@@ -1078,6 +1078,8 @@
         p.style.display = 'none';
         p = document.getElementById('graphicsassignments');  
         p.style.display = 'none';
+        p = document.getElementById('helicopter');  
+        p.style.display = 'none';
         } else {
             p.style.display = 'none';
         }
@@ -1092,6 +1094,8 @@
         p = document.getElementById('graphicsassignments');  
         p.style.display = 'none';
         p = document.getElementById('battleship');  
+        p.style.display = 'none';
+        p = document.getElementById('helicopter');  
         p.style.display = 'none';
         } else {
             p.style.display = 'none';
@@ -1108,6 +1112,25 @@
         p = document.getElementById('bunny');  
         p.style.display = 'none';
         p = document.getElementById('battleship');  
+        p.style.display = 'none';
+        p = document.getElementById('helicopter');  
+        p.style.display = 'none';
+        } else {
+            p.style.display = 'none';
+        }
+        
+    }
+    
+    function showCaption4() {
+        
+        var p = document.getElementById('helicopter');
+        if (p.style.display == 'none') {
+        p.style.display = 'block';
+        p = document.getElementById('bunny');  
+        p.style.display = 'none';
+        p = document.getElementById('battleship');  
+        p.style.display = 'none';
+        p = document.getElementById('graphicsassignments');  
         p.style.display = 'none';
         } else {
             p.style.display = 'none';
